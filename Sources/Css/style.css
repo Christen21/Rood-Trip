@@ -1,0 +1,400 @@
+/* Start Main Rules */
+body {
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: #d6d6d6;
+}
+
+hr {
+        color: #bebebe;
+        width: 90%;
+        border: 1px solid #bebebe;
+}
+
+@font-face {
+        font-family: myFirstFont;
+        src: url(../Fonts/Lobster-Regular.ttf);
+}
+
+/* Start Slide One */
+.slideOne {
+        background-image: url('../Images/banner.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        z-index: 0;
+}
+
+.slideOne .overLay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slideOne h1 {
+        position: relative;
+        z-index: 2;
+        color: rgba(255, 255, 255, 0.7);
+        text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+        text-align: center;
+        padding-top: 18%;
+        font-family: myFirstFont;
+        font-size: 7rem;
+        font-weight: bolder;
+}
+
+.slideOne a i {
+        position: relative;
+        z-index: 3;
+        font-size: 1.5rem;
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 0.8%;
+        margin-left: 48%;
+        margin-top: 12%;
+}
+
+/* End Of Slide One */
+
+/* Start Slide Two */
+.slideTwo {
+        background-image: url('../Images/banner2.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        z-index: 0;
+}
+
+.slideTwo .overLay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slideTwo .inner {
+        background-color: rgba(0, 0, 0, 0.4);
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        padding: 3% 2%;
+        width: 65%;
+        margin-top: 10%;
+        margin-right: 17.5%;
+        margin-left: 17.5%;
+}
+
+.slideTwo .inner h3 {
+        color: #fff;
+}
+
+.slideTwo .inner span,
+.slideTwo .inner p {
+        color: #bebebe;
+        font-weight: lighter;
+}
+
+.slideTwo .inner p {
+        padding: 4% 0;
+}
+
+.slideTwo .inner button {
+        color: #fff;
+        font-weight: bold;
+        border: 1px solid #bebebe;
+        padding: 1% 2%;
+        box-shadow: 2px #bebebe;
+}
+
+.slideTwo a i {
+        position: relative;
+        z-index: 3;
+        font-size: 1.5rem;
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 0.8%;
+        margin-left: 48%;
+        margin-top: 4%;
+}
+
+/* End Slide Two */
+
+/* Start Slide Three */
+.slideThree {
+        background-image: url('../Images/banner5.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        z-index: 0;
+}
+
+.slideThree .overLay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slideThree .inner {
+        background-color: rgba(0, 0, 0, 0.4);
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        padding: 3% 2%;
+        width: 65%;
+        margin-top: 10%;
+        margin-right: 17.5%;
+        margin-left: 17.5%;
+}
+
+.slideThree .inner h3 {
+        color: #fff;
+}
+
+.slideThree .inner span,
+.slideThree .inner p {
+        color: #bebebe;
+        font-weight: lighter;
+}
+
+.slideThree .inner p {
+        padding: 4% 0;
+}
+
+.slideThree .inner button {
+        color: #fff;
+        font-weight: bold;
+        border: 1px solid #bebebe;
+        padding: 1% 2%;
+        box-shadow: 2px #bebebe;
+}
+
+.slideThree a i {
+        position: relative;
+        z-index: 3;
+        font-size: 1.5rem;
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 0.8%;
+        margin-left: 48%;
+        margin-top: 4%;
+}
+
+/* End Slide Three */
+
+/* Start Slide Four */
+.slideFour {
+        background-image: url('../Images/banner4.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        z-index: 0;
+}
+
+.slideFour .overLay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slideFour .inner {
+        background-color: rgba(0, 0, 0, 0.4);
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        padding: 3% 2%;
+        width: 65%;
+        margin-top: 10%;
+        margin-right: 17.5%;
+        margin-left: 17.5%;
+}
+
+.slideFour .inner h3 {
+        color: #fff;
+}
+
+.slideFour .inner span,
+.slideFour .inner p {
+        color: #bebebe;
+        font-weight: lighter;
+}
+
+.slideFour .inner p {
+        padding: 4% 0;
+}
+
+.slideFour .inner button {
+        color: #fff;
+        font-weight: bold;
+        border: 1px solid #bebebe;
+        padding: 1% 2%;
+        box-shadow: 2px #bebebe;
+}
+
+.slideFour a i {
+        position: relative;
+        z-index: 3;
+        font-size: 1.5rem;
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 0.8%;
+        margin-left: 48%;
+        margin-top: 4%;
+}
+
+/* End Slide Four */
+
+/* Start Slide Five */
+.slideFive {
+        background-image: url('../Images/banner3.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        z-index: 0;
+}
+
+.slideFive .overLay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slideFive .inner {
+        background-color: rgba(0, 0, 0, 0.4);
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        padding: 3% 2%;
+        width: 65%;
+        margin-top: 10%;
+        margin-right: 17.5%;
+        margin-left: 17.5%;
+}
+
+.slideFive .inner h3 {
+        color: #fff;
+}
+
+.slideFive .inner span,
+.slideFive .inner p {
+        color: #bebebe;
+        font-weight: lighter;
+}
+
+.slideFive .inner p {
+        padding: 4% 0;
+}
+
+.slideFive .inner button {
+        color: #fff;
+        font-weight: bold;
+        border: 1px solid #bebebe;
+        padding: 1% 2%;
+        box-shadow: 2px #bebebe;
+}
+
+/* End Slide Five */
+
+/* Start Contact Me */
+.contact {
+        padding-top: 5%;
+        padding-bottom: 4%;
+        background-color: #d42525;
+}
+
+.contact h3 {
+        text-align: center;
+        color: #e4e3e3;
+}
+
+.contact form {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        color: #e4e3e3;
+}
+
+.contact form input,
+.contact form textarea {
+        background-color: #d64c4c;
+        color: #e4e3e3;
+        border: none;
+        width: 100%;
+        padding: 1.5% 2.5%;
+        margin-bottom: 3%;
+        margin-top: 1%;
+}
+
+.contact form button {
+        padding: 0.5% 1.5%;
+        background: none;
+        border: 1px solid #e4e3e3;
+        color: #e4e3e3;
+        font-weight: 500;
+        border-radius: 4px;;
+}
+
+.contact form button:hover {
+        background-color: #d64c4c;
+}
+
+.contact .footer {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding-left: 38%;
+}
+
+.contact .footer i {
+        font-size: 2rem;
+        color: #e4e3e3;
+        margin-right: 4%;
+        border: hidden;
+        background-color: #d64c4c;
+        padding: 2.5% 3%;
+        border-radius: 50%;
+}
+
+.contact .copyright p {
+        text-align: center;
+        font-size: 0.8rem;
+        word-spacing: 0.3rem;
+        color: #e4e3e3;
+}
+
+.contact .copyright a {
+        color: #bebebe;
+        text-decoration: underline;
+}
+
+.contact .copyright a:hover {
+        color: #bebebe;
+        text-decoration: none;
+}
+/* End Of Contact Me */
+
+
